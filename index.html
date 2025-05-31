@@ -1,136 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>NeuroNova AI - Democratizando la Inteligencia Artificial</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeuronovaAI - Revoluciona tu futuro con IA</title>
   <style>
-    body {
-      font-family: 'Roboto', sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #333;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    header {
-      background: #4a00e0;
-      background: linear-gradient(to right, #4a00e0, #8e2de2);
-      color: white;
+
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
       padding: 2rem;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+
+    .container {
+      max-width: 600px;
     }
-    header p {
-      font-size: 1.2rem;
-    }
-    .section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    .section h2 {
-      text-align: center;
+
+    h1 {
+      font-size: 3rem;
+      color: #00ffe7;
       margin-bottom: 1rem;
     }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
+
+    p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-bottom: 2rem;
     }
-    .service {
-      background: white;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .cta {
-      text-align: center;
-      margin: 2rem 0;
-    }
-    .cta a {
-      background: #4a00e0;
-      color: white;
+
+    .btn {
+      background-color: #00ffe7;
+      color: #000;
       padding: 1rem 2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #333;
-      color: white;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-    input, textarea {
-      padding: 0.8rem;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    button {
-      padding: 0.8rem;
       border: none;
-      background: #4a00e0;
-      color: white;
-      font-weight: bold;
-      border-radius: 5px;
+      border-radius: 30px;
+      font-size: 1rem;
       cursor: pointer;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.8rem;
+      color: #555;
     }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>NeuroNova AI</h1>
-  <p>Democratizando la Inteligencia Artificial para las PYMES</p>
-</header>
-
-<section class="section">
-  <h2>¿Qué ofrecemos?</h2>
-  <div class="services">
-    <div class="service">
-      <h3>Generación de Contenido</h3>
-      <p>Textos, imágenes y videos adaptados a tu negocio.</p>
-    </div>
-    <div class="service">
-      <h3>Asistente de Marketing</h3>
-      <p>Estrategias inteligentes para captar clientes.</p>
-    </div>
-    <div class="service">
-      <h3>Predicción de Ventas</h3>
-      <p>Análisis de datos para tomar mejores decisiones.</p>
-    </div>
+  <div class="container">
+    <h1>NeuronovaAI</h1>
+    <p>Impulsa tu negocio con soluciones de inteligencia artificial de última generación. Únete a la revolución tecnológica.</p>
+    <a href="mailto:luis.flores@iamundo.net" class="btn">Únete a la espera</a>
   </div>
-</section>
-
-<section class="section cta">
-  <h2>¡Comienza gratis ahora!</h2>
-  <a href="mailto:contacto@neuronova.ai">Contáctanos</a>
-</section>
-
-<section class="section">
-  <h2>Contáctanos</h2>
-  <form action="mailto:contacto@neuronova.ai" method="POST" enctype="text/plain">
-    <input type="text" name="nombre" placeholder="Tu nombre" required>
-    <input type="email" name="email" placeholder="Tu correo" required>
-    <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
-    <button type="submit">Enviar</button>
-  </form>
-</section>
-
-<footer>
-  © 2025 IA Mundo | Todos los derechos reservados
-</footer>
-
+  <footer>&copy; 2025 NeuronovaAI. Todos los derechos reservados.</footer>
 </body>
 </html>
